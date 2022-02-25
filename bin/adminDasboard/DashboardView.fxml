@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane minHeight="600.0" minWidth="900.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="adminDasboard.DashboardViewController">
+   <children>
+      <Label layoutX="222.0" layoutY="30.0" text="Admin Dashboard">
+         <font>
+            <Font name="Arial Unicode MS" size="32.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="161.0" fitWidth="151.0" layoutX="209.0" layoutY="118.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@billCollector2.jpg" />
+         </image>
+      </ImageView>
+      <Button layoutX="238.0" layoutY="263.0" mnemonicParsing="false" onAction="#dobillcollector" text="Bill Collector" />
+      <ImageView fitHeight="120.0" fitWidth="150.0" layoutX="399.0" layoutY="115.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@billGenerator2.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="120.0" fitWidth="150.0" layoutX="584.0" layoutY="115.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@billGenerator.png" />
+         </image></ImageView>
+      <Button layoutX="414.0" layoutY="263.0" mnemonicParsing="false" onAction="#dobillgenerator" text="Bill Generator" />
+      <Button layoutX="616.0" layoutY="263.0" mnemonicParsing="false" onAction="#dobilltable" text="Bill Table" />
+      <ImageView fitHeight="120.0" fitWidth="144.0" layoutX="39.0" layoutY="328.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@customerManagerr.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="46.0" layoutY="477.0" mnemonicParsing="false" onAction="#docustomermanager" text="Customer Manager" />
+      <ImageView fitHeight="120.0" fitWidth="151.0" layoutX="209.0" layoutY="328.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@customerTable.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="219.0" layoutY="477.0" mnemonicParsing="false" onAction="#docustomertable" text="Customer Table" />
+      <ImageView fitHeight="120.0" fitWidth="101.0" layoutX="385.0" layoutY="328.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@newspaper-hawker2.jpg" />
+         </image>
+      </ImageView>
+      <Button layoutX="399.0" layoutY="477.0" mnemonicParsing="false" onAction="#dohawker" text="Hawker" />
+      <ImageView fitHeight="120.0" fitWidth="75.0" layoutX="538.0" layoutY="328.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@hawkerTable.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="527.0" layoutY="477.0" mnemonicParsing="false" onAction="#dohawkertable" text="Hawker Table" />
+      <ImageView fitHeight="98.0" fitWidth="121.0" layoutX="637.0" layoutY="344.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@paperMaster.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="670.0" layoutY="477.0" mnemonicParsing="false" onAction="#dopapermaster" text="Paper Master" />
+      <ImageView fitHeight="150.0" fitWidth="150.0" layoutX="21.0" layoutY="118.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@areaMaster.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="56.0" layoutY="263.0" mnemonicParsing="false" onAction="#doareamaster" text="Area Master" />
+   </children>
+</AnchorPane>

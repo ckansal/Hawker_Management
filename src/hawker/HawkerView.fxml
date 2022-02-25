@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane minHeight="650.0" minWidth="500.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hawker.HawkerViewController">
+   <children>
+      <Label layoutX="135.0" layoutY="35.0" text="Hawker's Manger">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Label layoutX="73.0" layoutY="108.0" text="Name" textFill="#282727">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <ComboBox fx:id="cmbname" editable="true" layoutX="198.0" layoutY="111.0" onAction="#dofillname" prefWidth="150.0" promptText="Name" />
+      <Button layoutX="398.0" layoutY="108.0" mnemonicParsing="false" onAction="#dofetch" text="Fetch" textFill="#433e3e">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Label layoutX="73.0" layoutY="169.0" text="Address" textFill="#252323">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtaddress" layoutX="200.0" layoutY="171.0" prefHeight="25.0" prefWidth="231.0" promptText="Address" />
+      <Label layoutX="301.0" layoutY="227.0" text="Area" textFill="#2f2d2d">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="73.0" layoutY="227.0" text="Contact" textFill="#2c2727">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtcontact" layoutX="73.0" layoutY="270.0" prefHeight="25.0" prefWidth="150.0" promptText="cotact no." />
+      <ComboBox fx:id="cmbarea" layoutX="301.0" layoutY="270.0" onAction="#dofillarea" prefWidth="150.0" promptText="Name" />
+      <Label layoutX="72.0" layoutY="332.0" text="Selling Areas" textFill="#2f2a2a">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtareas" layoutX="238.0" layoutY="334.0" prefHeight="25.0" prefWidth="231.0" promptText="Selling Areas" />
+      <ImageView fx:id="prev" fitHeight="123.0" fitWidth="114.0" layoutX="72.0" layoutY="376.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../PRO/src/student/user.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="259.0" layoutY="403.0" text="Adhaar Card No." textFill="#2f2a2a">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtadhaar" layoutX="258.0" layoutY="454.0" prefHeight="25.0" prefWidth="150.0" promptText="Adhaar no." />
+      <Button layoutX="386.0" layoutY="580.0" mnemonicParsing="false" onAction="#doleft" text="Left" textFill="#282525">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Button layoutX="238.0" layoutY="580.0" mnemonicParsing="false" onAction="#dochange" text="Change" textFill="#322f2f">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Button layoutX="84.0" layoutY="580.0" mnemonicParsing="false" onAction="#doregister" text="Register" textFill="#393333">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Button layoutX="101.0" layoutY="493.0" mnemonicParsing="false" onAction="#dobrowse" text="Browse" textFill="#393434">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
